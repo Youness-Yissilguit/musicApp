@@ -42,18 +42,18 @@ export default {
       isMute: false,
       songs: [
         {
-          title: 'Bensound - Creativeminds',
-          src: require('../src/assets/bensound-creativeminds.mp3'),
+          title: 'Justin Bieber - Intentions',
+          src: require('../src/assets/Intentions.mp3'),
           imgSrc: require('../src/assets/1.jpg')
+        },
+        {
+          title: 'The Chainsmokers,Illenium - Takeaway',
+          src: require('../src/assets/Takeaway.mp3'),
+          imgSrc: require('../src/assets/2.jpg')
         },
         {
           title: 'Homer - Said',
           src: require('../src/assets/Homer_Said.mp3'),
-          imgSrc: require('../src/assets/2.jpg')
-        },
-        {
-          title: 'Jim Yosef - Firefly',
-          src: require('../src/assets/Jim-Yosef.mp3'),
           imgSrc: require('../src/assets/3.jpg')
         },
         {
@@ -62,9 +62,24 @@ export default {
           imgSrc: require('../src/assets/4.jpg')
         },
         {
-          title: 'Kisma - Fingertips',
-          src: require('../src/assets/Kisma-Fingertips.mp3'),
+          title: 'The Chainsmokers - All We Know ft',
+          src: require('../src/assets/Chainsmokers.mp3'),
           imgSrc: require('../src/assets/5.jpg')
+        },
+        {
+          title: 'Gryffin - Nobody Compares To You',
+          src: require('../src/assets/Gryffin.mp3'),
+          imgSrc: require('../src/assets/6.jpg')
+        },
+        {
+          title: 'NIKI - lowkey',
+          src: require('../src/assets/lowkey.mp3'),
+          imgSrc: require('../src/assets/7.jpg')
+        },
+        {
+          title: 'DJ Snake, Lauv - A Different Way',
+          src: require('../src/assets/A-Different-Way.mp3'),
+          imgSrc: require('../src/assets/8.jpg')
         }
       ],
       player: new Audio()
