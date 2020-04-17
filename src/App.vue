@@ -42,7 +42,7 @@ export default {
       isMute: false,
       songs: [
         {
-          title: 'bensound - creativeminds',
+          title: 'Bensound - Creativeminds',
           src: require('../src/assets/bensound-creativeminds.mp3'),
           imgSrc: require('../src/assets/1.jpg')
         },
