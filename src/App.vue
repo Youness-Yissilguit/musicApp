@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <h1><i class="fas fa-music"></i> My Music App <i class="fas fa-music"></i></h1>
+      <h1><i class="fas fa-music"></i> My Music App updated<i class="fas fa-music"></i></h1>
       <section class="play">
         <h3 class="actuel-m">{{ current.title }}</h3>
         <div class="dj-circle"></div>
